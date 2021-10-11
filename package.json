@@ -4,8 +4,7 @@
   "description": "Microservicio de Ilustrador",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon main.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,8 +21,7 @@
   },
   "homepage": "https://github.com/retornoaragond/P1-SD-Ilustrador-Microservicio#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.13"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "express": "^4.17.1",
