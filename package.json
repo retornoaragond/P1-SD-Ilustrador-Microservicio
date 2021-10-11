@@ -6,26 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/retornoaragond/P1-SD-Ilustrador-Microservicio.git"
-  },
   "keywords": [
     "nodejs",
     "microservices"
   ],
   "author": "Esteban Espinoza Fallas & Marco Murillo Sanchez",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/retornoaragond/P1-SD-Ilustrador-Microservicio/issues"
-  },
-  "homepage": "https://github.com/retornoaragond/P1-SD-Ilustrador-Microservicio#readme",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.13"
   },
   "engines": {
     "node": "14.x"
