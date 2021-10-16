@@ -1,11 +1,9 @@
-[
-    {
+[{
         "id": "1",
         "name": "Stan Lee",
         "nationality": "American",
         "birthday": "1922-12-28",
-        "comics": [
-            {
+        "comics": [{
                 "comic_id": "1",
                 "comic_name": "Tales of Suspense"
             },
@@ -20,8 +18,7 @@
         "name": "Jack Kirby",
         "nationality": "American",
         "birthday": "1917-08-28",
-        "comics": [
-            {
+        "comics": [{
                 "comic_id": "2",
                 "comic_name": "The Avengers #1"
             },
@@ -44,32 +41,27 @@
         "name": "Donny Cates",
         "nationality": "American",
         "birthday": "1984-09-14",
-        "comics": [
-            {
-                "comic_id": "12",
-                "comic_name": "Nexus War: Thor"
-            }
-        ]
+        "comics": [{
+            "comic_id": "12",
+            "comic_name": "Nexus War: Thor"
+        }]
     },
     {
         "id": "4",
         "name": "Chris Cantwell",
         "nationality": "American",
         "birthday": "1980-11-12",
-        "comics": [
-            {
-                "comic_id": "10",
-                "comic_name": "King in Black"
-            }
-        ]
+        "comics": [{
+            "comic_id": "10",
+            "comic_name": "King in Black"
+        }]
     },
     {
         "id": "5",
         "name": "Todd McFarlane",
         "nationality": "Canadian",
         "birthday": "1961-03-16",
-        "comics": [
-            {
+        "comics": [{
                 "comic_id": "4",
                 "comic_name": "Marvel Super Heroes: Secret Wars"
             },
@@ -88,8 +80,7 @@
         "name": "Steve Ditko",
         "nationality": "American",
         "birthday": "1927-11-02",
-        "comics": [
-            {
+        "comics": [{
                 "comic_id": "9",
                 "comic_name": "Strange Tales"
             },
@@ -98,5 +89,12 @@
                 "comic_name": "Doctor Strange"
             }
         ]
+    },
+    {
+        "id": "7",
+        "name": "Esteba Espinoza Fallas",
+        "nationality": "Costa Rican",
+        "birthday": "1995-11-25",
+        "comics": []
     }
 ]
