@@ -41,15 +41,15 @@ app.get('/ilustrador/:id', (req, res) => {
 })
 
 app.post('/ilustrador', (req, res) => {
-    let index = ilustradores.findIndex(i => i.id == req.params.id);
+    let index = ilustradores.findIndex(i => i.id === req.body.id);
     if (index != -1)
-      res.status(404).send('Ilustrador already exits'); 
+        res.status(404).send('Ilustrador already exits');
     else {
-      ilustradores.push(req.body);
-      saveIlustradores();
+        ilustradores.push(req.body);
+        saveIlustradores();
+        res.status(200).send('Ilustrador added');
     }
-    res.status(200).send('Ilustrador added');
-  })
+})
 
 app.put('/ilustrador/:id', (req, res) => {
     let index = ilustradores.findIndex(i => i.id == req.params.id);
@@ -72,7 +72,6 @@ app.delete('/ilustrador/:id', (req, res) => {
     }
     res.status(200).send('Ilustrador deleted');
 })
-
 
 app.listen(port, () =>
     console.log(`Ilustradores Server listening on port ${port}`)
