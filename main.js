@@ -62,7 +62,7 @@ app.put('/ilustrador/:id', (req, res) => {
     res.status(200).send('Ilustrador updated');
 })
 
-app.POST('/ilustrador/delete/:id', (req, res) => {
+app.post('/ilustrador/delete/:id', (req, res) => {
     let index = ilustradores.findIndex(i => i.id == req.params.id);
     if (index == -1)
         res.status(404).send('Ilustrador not found');
